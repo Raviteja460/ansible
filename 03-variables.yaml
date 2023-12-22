@@ -8,6 +8,6 @@
   tasks:
   - name: check variables
     vars:
-      Course: "Ansible"
+      Course: "Ansible" # Task level 
     ansible.builtin.debug:
       msg: "Hi, I am learning {{Course}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
